@@ -1,0 +1,184 @@
+/* page body */
+body {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* logo */
+.logo {
+    padding: 10px;
+    background-color: rgb(221, 216, 216);
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#link-list {
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* jumbotron/header dashboard */
+.paragraf {
+    background-color: rgba(15, 82, 82, .7);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.content {
+    /* background-color: rgba(15, 82, 82, 0.7); */
+}
+
+.title {
+    margin-top: 10px;
+    color: black;
+    font-size: 50px;
+}
+
+.pf {
+    margin-bottom: 40px;
+    color: black;
+}
+
+/* content gallery */
+.gallery {
+    margin-top: 20px;
+    padding: 100px;
+    background-color: rgba(11, 51, 25, 0.7);
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto;
+}
+
+
+.judul {
+    font-size: 15px;
+}
+
+.isian {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* tools */
+.mt-2 {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: rgba(128, 128, 128, .7);
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+/* loading */
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background-color: #242f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+}
+
+.duar {
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 100px;
+    background-color: red;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.duar:hover {
+    padding: 100px;
+    background-color: red;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    animation: duar 1s infinite alternate;
+}
+
+.hayu {
+    margin-top: 300px;
+    margin-right: 300px;
+    padding: 100px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 20px;
+    animation: hayu 2s infinite alternate;
+}
+
+.tuwew {
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: greenyellow;
+    border-radius: 20px;
+    animation: tuwew 1s infinite alternate;
+}

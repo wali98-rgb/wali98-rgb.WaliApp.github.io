@@ -1,0 +1,52 @@
+/* logo */
+.img {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.img::before {
+    content: "";
+    background: linear-gradient(rgb(12, 85, 85), rgb(75, 15, 75));
+    position: absolute;
+    width: 40px;
+    height: 140px;
+    animation: muter 1.5s linear infinite;
+}
+
+.img::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(221, 216, 216);
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+}
+
+.isi {
+    z-index: 1;
+    position: relative;
+}
+
+/* content/gallery */
+.img-gall {
+    border-radius: 20px;
+}
+
+/* footer */
+.poto {
+    
+}
+
+#poto {
+    border-radius: 20px;
+    border: 3px solid black;
+    height: 300px;
+}

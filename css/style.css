@@ -1,0 +1,71 @@
+body {
+    background-image: url("curug.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position-y: center;
+}
+
+.box {
+    background-image: url("ikon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 50px;
+    color: wheat;
+    border-radius: 100px;
+    border: 5px solid black;
+    text-align: center;
+    box-shadow: 5px 5px 5px 3px black;
+}
+
+.box2 {
+    background-image: url("ikon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    margin: 30px;
+    padding: 50px;
+    color: wheat;
+    border-radius: 100px;
+    border: 5px solid black;
+    text-align: center;
+    box-shadow: 5px 5px 5px 3px black;
+}
+
+.box3 {
+    background-image: url("ikon.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    float: left;
+    margin: 30px;
+    padding: 50px;
+    color: wheat;
+    border-radius: 100px;
+    border: 5px solid black;
+    font-style: oblique; /* tulisan miring */
+    text-align: center;
+    box-shadow: 5px 5px 5px 3px black;
+    animation: kotak1 2s linear infinite alternate;
+}
+
+.title {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 20px;
+}
+
+@keyframes kotak1 {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {transform: translateY(500px);}
+}

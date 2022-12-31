@@ -1,0 +1,22 @@
+/* title */
+.title-about {
+    padding: 20px;
+    background-color: rgba(22, 29, 53, 0.7);
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.title-about h1 {
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: rgba(49, 63, 110, 0.7);
+    font-size: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.title-about p {
+    font-weight: bold;
+    text-align: justify;
+}

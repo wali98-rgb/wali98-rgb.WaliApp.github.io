@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/index.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/button.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/image.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/keyframes.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> <!-- JQuery untuk preloader -->
+    
+    <title>Film Page | WaliApp</title>
+</head>
+<body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div class="logo">
+        <div class="img">
+            <a href="../../index.html" class="isi">
+                <img src="../../img/cur2.png" alt="" width="50px">
+            </a>
+        </div>
+        <div class="nameApp">
+            <h1>WALIAPP</h1>
+        </div>
+        <div class="search">
+        </div>
+    </div>    
+    
+    <div class="menu row">
+        <a class="btn-menu" href="home.html">HOME</a>
+        <a class="btn-menu" href="film.html">FILM</a>
+        <a class="btn-menu" href="about.html">ABOUT</a>
+    </div>
+    
+    <div class="footer">
+        <div class="foot">
+            <div class="contact mt-2">
+                <h1>Contact Me</h1>
+                <ul style="list-style-type: none;">
+                    <li><a style="text-decoration: none;" href="www.whatsapp.com/08882169159/" target="_blank">Waliyyudin</a> | WhatsApp</li>
+                </ul>
+            </div>
+            <div class="poto mt-2">
+                <img id="poto" src="../../img/wali.jpeg" alt="" width="200px">
+                <h4>
+                    Waliyyudin | 362101019
+                </h4>
+                <hr color="black">
+                <p>
+                    Teknik Informatika S1 <br>
+                    <b>REGULER</b>
+                </p>
+            </div>
+            <div class="sosmed mt-2">
+                <h1>Social media</h1>
+                <hr color="black">
+                <table>
+                    <tr>
+                        <th>Facebook</th>
+                        <td>:</td>
+                        <td><a style="color: darkblue; text-decoration: none;" href="https://www.facebook.com/waliyyuddin.wali/" target="_blank">Waliyyudin</a></td>
+                    </tr>
+                    <tr>
+                        <th>Instagram</th>
+                        <td>:</td>
+                        <td><a style="color: darkblue; text-decoration: none;" href="https://www.instagram.com/waliyyuddin_wali/" target="_blank">Waliyyuddin_wali</a></td>
+                    </tr>
+                    <tr>
+                        <th>YouTube</th>
+                        <td>:</td>
+                        <td><a style="color: darkblue; text-decoration: none;" href="https://www.youtube.com/" target="_blank">Wali TSAZ</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <h3 align="right" class="copy">&copy;Copyright | Waliyyudin | 2022</h3>
+    </div>
+
+    <script>
+        $(window).on("load", function () {
+            $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
+</body>
+</html>
