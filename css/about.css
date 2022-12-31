@@ -20,3 +20,174 @@
     font-weight: bold;
     text-align: justify;
 }
+
+/* alamat */
+.alamat {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(22, 29, 53, 0.7);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* map */
+.map {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.map p {
+    padding: 10px;
+    background-color: rgba(22, 29, 53, 0.7);
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.map a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* tambahan */
+.kotak {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    animation: animate 4s linear infinite;
+}
+
+.kotak div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.kotak div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, rgb(26, 32, 87));
+    transform: rotateY(calc(90deg * var(--i))) translateZ(50px);
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: black;
+    transform: rotateX(90deg) translateZ(50px);
+
+}
+
+.top::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(26, 32, 87);
+    transform: translateZ(-100px);
+}
+
+.top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(26, 32, 87);
+    transform: translateZ(-140px);
+    filter: blur(20px);
+    box-shadow: 0 0 120px rgba(26, 32, 87, .2),
+                0 0 200px rgba(26, 32, 87, .4),
+                0 0 300px rgba(26, 32, 87, .6),
+                0 0 400px rgba(26, 32, 87, .8),
+                0 0 500px rgba(26, 32, 87, 1);
+}
+
+.kotak2 {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    animation: animate2 4s linear infinite;
+}
+
+.kotak2 div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.kotak2 div span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, rgb(26, 32, 87));
+    transform: rotateY(calc(90deg * var(--i))) translateZ(50px);
+}
+
+.top2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: black;
+    transform: rotateX(90deg) translateZ(50px);
+
+}
+
+.top2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(26, 32, 87);
+    transform: translateZ(-100px);
+}
+
+.top2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: rgb(26, 32, 87);
+    transform: translateZ(-140px);
+    filter: blur(20px);
+    box-shadow: 0 0 120px rgba(26, 32, 87, .2),
+                0 0 200px rgba(26, 32, 87, .4),
+                0 0 300px rgba(26, 32, 87, .6),
+                0 0 400px rgba(26, 32, 87, .8),
+                0 0 500px rgba(26, 32, 87, 1);
+}
