@@ -1,0 +1,29 @@
+/* variabel warna */
+:root {
+    --ijoMuda: rgba(53, 153, 7, 0.7);
+}
+
+/* jumbotron */
+.jumbotron {
+    padding: 30px;
+    background-color: rgba(50, 110, 22, 0.7);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.jbt {
+    padding: 20px;
+    background-image: url("../img/aquaman.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    border-radius: inherit;
+    border: 2px solid black;
+}
+
+.jbt h1 {
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
