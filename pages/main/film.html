@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,12 @@
     <link rel="stylesheet" href="../../css/button.css" type="text/css" />
     <link rel="stylesheet" href="../../css/image.css" type="text/css" />
     <link rel="stylesheet" href="../../css/keyframes.css" type="text/css" />
+    <link rel="stylesheet" href="../../css/film.css" type="text/css" />
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script> <!-- JQuery untuk preloader -->
-    
+
     <title>Film Page | WaliApp</title>
 </head>
+
 <body>
     <div class="loader-wrapper">
         <span class="loader"><span class="loader-inner"></span></span>
@@ -29,20 +32,34 @@
         </div>
         <div class="search">
         </div>
-    </div>    
-    
+    </div>
+
     <div class="menu row">
         <a class="btn-menu" href="home.html">HOME</a>
         <a class="btn-menu" href="film.html">FILM</a>
         <a class="btn-menu" href="about.html">ABOUT</a>
     </div>
-    
+
+    <div class="">
+        <div class="search-box">
+            <form action="" method="post" id="formFilm">
+                <input type="search" name="search" id="keyword" placeholder="Search Film">
+                <input class="btn-search" type="submit" value="Search" id="searchFilm">
+            </form>
+        </div>
+        <div class="gallery row" id="listFilm">
+
+        </div>
+    </div>
+
     <div class="footer">
         <div class="foot">
             <div class="contact mt-2">
                 <h1>Contact Me</h1>
                 <ul style="list-style-type: none;">
-                    <li><a style="text-decoration: none;" href="https://wa.me/send?phone=08882169159&text=Hi!%20Waliii..." target="_blank">Waliyyudin</a> | WhatsApp</li>
+                    <li><a style="text-decoration: none;"
+                            href="https://wa.me/send?phone=08882169159&text=Hi!%20Waliii..."
+                            target="_blank">Waliyyudin</a> | WhatsApp</li>
                 </ul>
             </div>
             <div class="poto mt-2">
@@ -63,17 +80,22 @@
                     <tr>
                         <th>Facebook</th>
                         <td>:</td>
-                        <td><a style="color: darkblue; text-decoration: none;" href="https://www.facebook.com/wali.waliyudin/" target="_blank">wali.waliyudin</a></td>
+                        <td><a style="color: darkblue; text-decoration: none;"
+                                href="https://www.facebook.com/wali.waliyudin/" target="_blank">wali.waliyudin</a></td>
                     </tr>
                     <tr>
                         <th>Instagram</th>
                         <td>:</td>
-                        <td><a style="color: darkblue; text-decoration: none;" href="https://www.instagram.com/waliyyuddin_wali/" target="_blank">Waliyyuddin_wali</a></td>
+                        <td><a style="color: darkblue; text-decoration: none;"
+                                href="https://www.instagram.com/waliyyuddin_wali/" target="_blank">Waliyyuddin_wali</a>
+                        </td>
                     </tr>
                     <tr>
                         <th>YouTube</th>
                         <td>:</td>
-                        <td><a style="color: darkblue; text-decoration: none;" href="https://www.youtube.com/channel/UCmhBJg5g4_LNvybKTvQX5ug/" target="_blank">Wali TSAZ</a></td>
+                        <td><a style="color: darkblue; text-decoration: none;"
+                                href="https://www.youtube.com/channel/UCmhBJg5g4_LNvybKTvQX5ug/" target="_blank">Wali
+                                TSAZ</a></td>
                     </tr>
                 </table>
             </div>
@@ -81,10 +103,12 @@
         <h3 align="right" class="copy">&copy;Copyright | Waliyyudin | 2022</h3>
     </div>
 
+    <script src="../../js/film.js" type="text/javascript"></script>
     <script>
         $(window).on("load", function () {
             $(".loader-wrapper").fadeOut("slow");
         });
     </script>
 </body>
+
 </html>

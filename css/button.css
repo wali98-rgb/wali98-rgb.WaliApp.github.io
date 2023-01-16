@@ -43,3 +43,12 @@
     border: 2px solid black;
     /* box-shadow: 2px 2px 2px 2px black; */
 }
+
+/* search */
+.btn-search {
+    margin-left: 15px;
+    padding: 14px 20px;
+    border-radius: 20px;
+    background-color: rgb(129, 196, 23);
+    
+}
