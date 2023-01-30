@@ -101,6 +101,7 @@ body {
     padding-bottom: 30px;
     background-color: rgba(128, 128, 128, .7);
     border-radius: 20px;
+    border: 2px solid black;
     width: auto;
     height: auto;
 }
