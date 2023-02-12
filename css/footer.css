@@ -18,7 +18,9 @@
 .copy {
     margin-bottom: 0;
     padding: 20px;
-    background-color: rgba(51, 21, 21, 0.7);
+    background-color: rgb(221, 216, 216);
+    color: black;
+    box-shadow: 2px 2px 2px 2px white;
 }
 
 /* contact */
@@ -35,7 +37,7 @@
     margin-right: 10px;
     margin-left: 10px;
     padding: 20px;
-    background-color: rgba(22, 59, 59, 0.7);
+    background-color: rgba(24, 22, 59, 0.7);
     border: 2px solid black;
     height: auto;
     width: 500px;
@@ -46,7 +48,7 @@
 /* sosmed */
 .sosmed {
     padding: 20px;
-    background-color: rgba(24, 22, 59, 0.7);
+    background-color: rgba(22, 59, 34, 0.7);
     border: 2px solid black;
     text-align: center;
     width: 300px;
