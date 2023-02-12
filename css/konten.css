@@ -18,7 +18,7 @@
     margin-right: 30px;
     padding: 10px;
     width: 25%;
-    background-color: rgba(53, 38, 25, 0.7);
+    background-color: rgba(51, 51, 51, 0.7);
     border-radius: inherit;
     border: 2px solid black;
     justify-content: center;
@@ -28,7 +28,7 @@
 .sidebar p {
     padding: 10px;
     width: auto;
-    background-color: rgb(4, 58, 40);
+    background-color: rgb(167, 170, 169);
     color: black;
     border-radius: inherit;
     border: 2px solid black;
@@ -50,7 +50,7 @@
     padding: 20px;
     width: 65%;
     height: auto;
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgba(77, 77, 77, 0.7);
     border: 2px solid black;
     border-radius: inherit;
 }
@@ -91,7 +91,7 @@
 .desc a {
     bottom: 0;
     padding: 10px;
-    background-color: red;
+    background-color: white;
     font-size: 30px;
     border-radius: 10px;
     border: 2px solid black;

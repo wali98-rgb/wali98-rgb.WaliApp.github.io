@@ -22,7 +22,7 @@
 
 .btn-menu:hover {
     background-color: rgba(56, 68, 66, 0.7);
-    border: 6px solid rgb(37, 58, 44);
+    border: 6px solid rgb(13, 43, 63);
     box-shadow: 5px 5px 5px 5px black;
 }
 
@@ -47,7 +47,7 @@
     margin-left: 15px;
     padding: 14px 20px;
     border-radius: 20px;
-    background-color: rgb(129, 196, 23);
+    background-color: rgb(23, 196, 173);
     
 }
 

@@ -6,7 +6,7 @@
 /* jumbotron */
 .jumbotron {
     padding: 30px;
-    background-color: rgba(50, 110, 22, 0.7);
+    background-color: rgba(15, 82, 82, .7);
     border-radius: 20px;
     border: 2px solid black;
 }
