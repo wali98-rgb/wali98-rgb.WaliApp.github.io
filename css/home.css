@@ -27,3 +27,51 @@
     font-weight: bold;
     color: white;
 }
+
+.pf-jbt {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+/* slide jumbotron */
+.main-home {
+    border: 10px solid #efefef;
+	position: relative;
+	overflow: hidden;
+	background: #efefef;
+    margin:20px auto;
+	width: 768px;
+	height: 450px;
+}
+
+.main-home::after {
+    font-size: 150px;
+	position: absolute;
+	z-index: 12;
+	color: rgba(255,255,255, 0);
+	left: 300px;
+    top: 80px;
+	transition: 1s all ease;
+}
+
+.main-home:hover::after {
+    color: rgba(255,255,255, 0.6);
+}
+
+.slider {
+    position: absolute;
+	width: 3900px;
+    animation: slider 16s ease-in-out infinite;
+}
+
+.slider:hover {
+    animation-play-state: paused;
+}
+
+.slider img{
+    width: 768px;
+	height: 450px;
+	float: left;
+}
+
