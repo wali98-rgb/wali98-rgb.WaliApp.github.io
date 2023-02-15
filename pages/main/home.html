@@ -65,6 +65,48 @@
             <img src="../../img/start1.jpeg" alt="start up">
         </div>
     </div>
+
+    <div class="tbl">
+        <a href="#ulasFilm" class="btn btn-pop">ulas film</a>
+    </div>
+
+    <div id="tampilUlas">
+        <table border="1" cellpadding="10" width="100%" align="center">
+            <tr>
+                <th width="50%">Nama Film</th>
+                <th width="50%">Ulasan Anda</th>
+            </tr>
+            <tr align="center">
+                <td><span id="namaPilem">-- Nama Film --</span></td>
+                <td><span id="ulasanPilem">-- Ulasan Film --</span></td>
+            </tr>
+            <tr align="center">
+                <th>Rate Anda</th>
+                <td><span id="ratePilem">-- Rate Film --</span></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="ulasan" id="ulasFilm" name="ulasFilm" aria-disabled="true">
+        <a href="#" class="close-button" title="Close">X</a>
+        <form action="#" name="ulas" class="window">
+            <label for="">Nama Film : </label> <br>
+            <input type="text" name="namaFilm" id="" class="inppop"> <br>
+            <label for="">Ulasan : </label> <br>
+            <input type="text" name="ul" id="" class="inppop"> <br>
+            <label for="">Rate : </label> <br>
+            <select name="rate" id="" class="dropdown">
+                <option value="-">--Silahkan Pilih Rate--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select> <br>
+
+            <a href="#" onclick="tambahUlas()" class="btn-ulas">ULAS</a>
+        </form>
+    </div>
     
     <div class="footer">
         <div class="foot">
@@ -110,6 +152,7 @@
         <h3 align="right" class="copy">&copy;Copyright | Waliyyudin | 2022</h3>
     </div>
 
+    <script src="../../js/home.js"></script>
     <script>
         $(window).on("load", function () {
             $(".loader-wrapper").fadeOut("slow");
